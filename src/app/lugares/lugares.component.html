@@ -1,0 +1,27 @@
+<!--Lugares -->
+<section id="lugares" class="mt-4 mb-4">
+    <div class="container">
+      <div class="row">
+        <div class="col  text-center text-uppercase">
+          <small>Lugares</small>
+          <h2>populares</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4 mb-4 col-12 col-sm-6 col-lg-3">
+          <div class="card">
+            <img src= {{ product.image }} class="card-img-top" alt={{ product.alt }}>
+            <div class="card-body">
+              <div class="badges">
+              <span class="badge badge-warning">{{ product.tag1 }}</span>
+              <span class="badge badge-info">{{ product.tag2 }}</span>
+              </div>
+            <h5 class="card-title">{{ product.title }}</h5>
+            <p class="card-text">{{ product.description }}</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--/Lugares -->
